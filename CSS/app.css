@@ -4693,25 +4693,6 @@ header {
 
 /* HEADING
 -------------------------------------------------*/
-.heading {
-  padding-bottom: 15px;
-  text-align: center;
-  max-width: 960px;
-  margin: 0 auto;
-  padding-top: 80px; }
-
-.heading h2 {
-  font-weight: 600;
-  font-family: 'Raleway';
-  font-size: 40px;
-  color: #333;
-  margin: 0;
-  padding: 5px; }
-
-.heading h3 {
-  font-size: 1em;
-  line-height: 1.7; }
-
 #site-title {
   max-width: 150px; }
 
@@ -4787,5 +4768,9 @@ header {
 
 .footer a, .footer a:hover {
   color: #fff; }
+
+.nanoGalleryThumbnailContainer {
+  -webkit-border-radius: 3px;
+  border-radius: 3px; }
 
 /*# sourceMappingURL=app.css.map */

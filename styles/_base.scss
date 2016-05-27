@@ -1,0 +1,129 @@
+// add your base styles here
+
+header {
+    padding-bottom:50px;
+}
+
+.display-2 {
+    font-family:'Roboto';
+    font-size:60px;
+    line-height:1;
+    font-weight:300;
+    color:#fff
+}
+
+.learn {
+    font-family:'Roboto';
+    font-size:27px;
+    line-height:1.4;
+    font-weight:300;
+    color:#fff;
+}
+
+.jumbotron-fluid {
+    padding:0;
+}
+
+
+
+/* HEADING
+-------------------------------------------------*/
+
+#site-title {
+    max-width:150px;
+}
+
+
+
+/* PARALLAX
+-------------------------------------------------*/
+.parallax {
+    text-align:center;
+    background-position:center center;
+    background-repeat:no-repeat;
+    background-size:cover;
+    background-attachment:fixed!important;
+    overflow:hidden;
+}
+
+.parallax-pattern-overlay {
+    background-image:url(../img/pattern.png);
+    background-repeat:repeat;
+}
+
+#size-banner{
+    height:580px;
+    padding-top:170px;
+}
+
+/* FOOTER
+-------------------------------------------------*/
+.footer {
+    background:#0e0e0e;
+    margin-top:120px;
+    position:relative
+}
+
+.footer .container {
+    padding:60px 0 20px;
+}
+
+.footer ul {
+    margin:0 auto;
+    margin-bottom:30px;
+    margin-top:10px;
+    text-align:center;
+    list-style-type:none;
+    padding-left:0;
+}
+
+.footer ul li {
+    text-align:center;
+    display:inline-block;
+    background:#2a2a2a;
+    color:#fff;
+    line-height:45px;
+    margin:0 4px;
+    width:45px!important;
+    height:45px!important;
+    -webkit-border-radius:3px;
+    border-radius:3px;
+}
+
+.footer ul li:hover {
+    background:#a2a2a2;
+}
+
+.footer ul li:hover a {
+    color:#fff;
+}
+
+.footer ul li a {
+    color:#fff;
+    width:42px!important;
+    height:42px!important;
+}
+
+.footer ul li a i {
+    line-height:45px;
+    color:#fff;
+}
+
+.footer p {
+    color:#666666;
+    font-size:.9em;
+    line-height:24px;
+    font-weight:300;
+    text-align:center;
+    // text-transform:uppercase;
+}
+
+.footer a,.footer a:hover {
+    color:#fff;
+}
+
+
+.nanoGalleryThumbnailContainer {
+   -webkit-border-radius:3px;
+    border-radius:3px;    
+}
